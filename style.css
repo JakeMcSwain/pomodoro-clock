@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Viga&display=swap');
+
+html {
+    background: rgb(238,169,169);
+    background: linear-gradient(90deg, rgba(238,169,169,1) 38%, rgba(144,250,155,1) 100%);
+}
+
+h3 {
+    font-family: 'Viga', sans-serif;
+    
+}
+
+#mainMessage {
+    padding-top: 30px;
+}
+
+body {
+    text-align: center;
+}
+
+#startButton {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    height: 400px;
+    width: 400px;
+    line-height: 400px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+}
+
+#clockDiv {
+   text-align: center;
+   font-family: 'Viga', sans-serif;
+   font-size: 100px;
+   display: inline-block;
+}
+
+.freeTime {
+    height: 400px;
+    width: 400px;
+    background-color: #00FF7F;
+    border-radius: 50%;
+    line-height: 400px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.workTime {
+    height: 400px;
+    width: 400px;
+    background-color: #FF6347;
+    border-radius: 50%;
+    line-height: 400px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#statusMessage {
+    padding-top: 30px;
+}
+
+#ideas {
+    padding-top: 30px;
+}
+
+#newsUpdate{
+    float: left;
+}
